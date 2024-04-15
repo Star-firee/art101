@@ -1,0 +1,29 @@
+body {
+    background-color: #f8b9dc;
+  }
+
+
+h1 {
+    font-family: Courier New;
+    text-indent: 400px;
+    color: aliceblue; 
+    font-size: 400%; 
+}
+
+p {
+    font-family: Courier New;
+}
+
+#content{
+margin: 10px;
+padding: 10px;
+border: solid 4px #f9e9cc;
+background-color: #edf1e2;
+}
+
+.Mocha {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 29%;
+}
