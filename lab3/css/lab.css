@@ -39,3 +39,8 @@
   margin-right: auto;
   width: 29%;
 }
+.classpic {
+  display: block;
+  border: solid 4px hsl(0, 85%, 79%);
+  width: 29%;
+}
