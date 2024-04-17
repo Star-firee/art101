@@ -25,3 +25,8 @@ p{
   margin-right: auto;
   width: 30%;
 }
+
+a {
+  font-family: Courier New;
+  color: #b1d2f5;
+}
