@@ -4,6 +4,38 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #ff9999;
+    background-color: #f0a6a6;
   }
+  body {
+    background-color: #f5c5c5;
+  }
+  
+  h1 {
+    font-family: Courier New;
+    text-align: center;
+    color: aliceblue; 
+    font-size: 300%; 
+  }
+  
+  p {
+    font-family: Courier New;
+  }
+  
+  #content{
+  margin: 10px;
+  padding: 10px;
+  border: solid 4px hsl(352, 92%, 70%);
+  background-color: #fdbaba;
+  }
+  a {
+    font-family: Courier New;
+    color: #f7eff2;
+}
+.lab3{
+  display: block;
+  border: solid 4px hsl(0, 85%, 79%);
+  margin-left: auto;
+  margin-right: auto;
+  width: 29%;
+}
