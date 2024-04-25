@@ -4,6 +4,47 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 3px hsl(0, 59%, 81%);
+    background-color: #f7c9c9;
   }
+
+body{
+  background-color: #ea6060;
+}
+#content{
+  background-color: #ed9393;
+  border: solid 3px #ea6060; 
+}
+  .malibuchevy{
+    width: 540px;
+    border:dotted 5px #faeeee;
+    float: right;
+    
+
+  }
+
+h1{
+  color:#f8f3f3; 
+  font-size: 150%    
+} 
+ 
+  .small-section{
+  margin-right: 700px;
+  border: solid #ed7171;
+  background-color: #fabebe;
+ }
+
+ 
+h3{
+  text-align:center;
+  margin-top: 50px;
+  color:#f8f3f3; 
+  font-family: 'Courier New', Courier, monospace;  
+}
+ .scriptoutput{
+  border:solid 5px #ebb2b2;
+ }
+
+ .labscreenshots{
+  width: 50%; 
+ }
