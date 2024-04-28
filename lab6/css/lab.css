@@ -2,8 +2,60 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
-    padding: 10px;
+    background-size:50px 50px; 
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border-left: double #7b3232;
+    background-color: antiquewhite;
+    width:600px; 
+    height: 200px;
+    
   }
+
+  #content{
+     background-color: rgb(240, 243, 231);
+     border: solid 5px rgb(91, 70, 40);
+  }
+
+  body{
+    background-color: rgb(84, 60, 30);
+  }
+
+  h1{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(77, 49, 14); 
+    letter-spacing: -1px;
+  }
+ 
+  h2{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(77, 49, 14); 
+    font-size: 20px;
+  }
+
+  p{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(137, 110, 77); 
+    font-size: 17px;
+  }
+
+
+  .result-section{
+     margin-top: 100px;    
+     margin-bottom: 10px;
+     margin-left: 10px;
+     margin-right: 10px;
+     text-align: center;
+  }
+  .labScreenshots{
+    margin-left:50px;
+    margin-right:50px;
+    width:40%;
+    border: double 5px rgb(48, 32, 12); 
+  }
+
+.malibuchevy{
+  width:30%;
+  float:right; 
+  border: double 5px rgb(48, 32, 12); 
+} 
+
