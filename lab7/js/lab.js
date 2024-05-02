@@ -2,6 +2,10 @@
 // Author: Elizabeth Itzel Tenorio
 // Date: 2nd May 2024
 
+function case_insensitive_comp(strA, strB) {
+    return strA.toLowerCase().localeCompare(strB.toLowerCase());
+}
+
 function sortNameFunction(){
     //enter name
     var userName =  window.prompt("Hii what's your name?");
@@ -12,7 +16,7 @@ function sortNameFunction(){
     console.log("name array= ", userNameSplit); 
     
     //sort the array
-    var userNameSort= userNameSplit.sort(); 
+    var userNameSort= userNameSplit.sort(case_insensitive_comp); 
     console.log("name sort= ", userNameSort); 
 
     //join the sorted array
