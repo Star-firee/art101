@@ -2,6 +2,7 @@
 // Author: Elizabeth Itzel Tenorio
 // Date: 2nd May 2024
 
+//returns case insensitive 
 function case_insensitive_comp(strA, strB) {
     return strA.toLowerCase().localeCompare(strB.toLowerCase());
 }
