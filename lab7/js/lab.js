@@ -13,19 +13,19 @@ function sortNameFunction(){
     console.log("username= ", userName);
     
     //split the array
-    var userNameSplit= userName.split(''); 
-    console.log("name array= ", userNameSplit); 
+    //var userNameSplit= userName.split(''); 
+    //console.log("name array= ", userNameSplit); 
     
     //sort the array
-    var userNameSort= userNameSplit.sort(case_insensitive_comp); 
-    console.log("name sort= ", userNameSort); 
+    //var userNameSort= userNameSplit.sort(case_insensitive_comp); 
+    //console.log("name sort= ", userNameSort); 
 
     //join the sorted array
-    var userNameJoined= userNameSort.join('');
-    console.log("name joined= ", userNameJoined); 
+    //var userNameJoined= userNameSort.join('');
+    //console.log("name joined= ", userNameJoined); 
 
     //return the sorted array 
-    return userNameJoined; 
+    return userName.split('').sort(case_insensitive_comp).join(''); 
 } 
 
 //output 
