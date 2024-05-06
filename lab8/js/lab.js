@@ -31,7 +31,10 @@ var product= numberArray.map(function(x){
 console.log("My array plus 30: ", product); 
 
  // Your map results data
-var mapResults = "original array: "+ numberArray +" array multiplied by 2: "+numberArray.map(multiply) + " array plus 30: " + product;
+var mapResults = 
+"original array: " + numberArray + "<br>" + 
+" array multiplied by 2: "+numberArray.map(multiply) + "<br>" + 
+" array plus 30: " + product;
 
 
 // Use jQuery to select the element by its ID and set the HTML content
