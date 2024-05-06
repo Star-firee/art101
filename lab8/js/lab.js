@@ -1,4 +1,4 @@
-// lab 8: Anons and Callbacks
+// lab 8: Anon Functions and Callbacks
 // Author: Elizabeth Itzel Tenorio
 // Date: 5th May 2024
 
