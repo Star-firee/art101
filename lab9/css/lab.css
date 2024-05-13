@@ -48,9 +48,9 @@ a {
 }
 
 .special {
-  background-color: rgb(238, 230, 250);
-  border: double 50px rgba(162, 0, 255, 0.126);
-  color: rgb(217, 192, 255);
+  background-color: rgb(238, 230, 250) !important;
+  border: double 50px rgba(162, 0, 255, 0.126) !important;
+  color: rgb(217, 192, 255) !important;
 } 
 .labScreenshots{
   margin-left:350px;
