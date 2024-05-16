@@ -9,7 +9,7 @@ body {
 
 /* we can have rules apply to multiple elements at the same time with commas */
 h1,h2,h3 {
-  font-family: sans-serif;
+  font-family: 'Times New Roman', Times, serif
 }
 
 /* and we can have rules that overlap other rules, both take effect */
@@ -36,7 +36,7 @@ h1 {
 }
 
 h1{
-  font-family: Courier New;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
 }
 h2{
