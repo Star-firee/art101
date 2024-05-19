@@ -22,4 +22,17 @@ $("#submit").click(function(){
    $("#output").html('<div class="text"><p>' + "Your name isss "+ userNameSorted + '</p></div>');
 });
 
+//button
+$("#output").append("<button class='cool-button'>  !! And some Dots Button !!  </button>");
+$(".cool-button").click(function(){
+    $("#content").toggleClass("special"); 
+    $(".minor-section").toggleClass("special"); 
+    $(".Headlines").toggleClass("special"); 
+}); 
 
+$("#output").append("<button class='stripes-button'>  !! And some stripes Button !!  </button>");
+$(".stripes-button").click(function(){
+    $("#content").toggleClass("stripes"); 
+    $(".minor-section").toggleClass("stripes"); 
+    $(".Headlines").toggleClass("stripes"); 
+}); 

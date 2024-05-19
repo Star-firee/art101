@@ -47,4 +47,17 @@ a {
 }
 
 
+.special {
+  background-color: rgb(0, 0, 0) !important;
+  border: dotted 50px rgba(68, 0, 227, 0.479) !important;
+  color: rgb(255, 255, 255) !important;
+  font-size: 20px !important;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif!important;
+}
 
+.stripes {
+  background-color: rgb(0, 0, 0) !important;
+  border: double 50px rgba(68, 0, 227, 0.479); 
+  color: rgb(230, 200, 200);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif!important;
+}
