@@ -27,12 +27,12 @@ $("#output").append("<button class='cool-button'>  !! And some Dots Button !!  <
 $(".cool-button").click(function(){
     $("#content").toggleClass("special"); 
     $(".minor-section").toggleClass("special"); 
-    $(".Headlines").toggleClass("special"); 
+    $(".headlines").toggleClass("special"); 
 }); 
 
 $("#output").append("<button class='stripes-button'>  !! And some stripes Button !!  </button>");
 $(".stripes-button").click(function(){
     $("#content").toggleClass("stripes"); 
     $(".minor-section").toggleClass("stripes"); 
-    $(".Headlines").toggleClass("stripes"); 
+    $(".headlines").toggleClass("stripes"); 
 }); 
