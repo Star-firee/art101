@@ -5,7 +5,7 @@
 function sortingHat (str){
    length = str.length;
    mod = length % 4;
-   if (mod==0){
+   if (mod == 0){
        return "Gryffindor";
    } 
    else if (mod == 1){
@@ -14,7 +14,7 @@ function sortingHat (str){
    else if (mod == 2){
     return "RavenClaw";
    }
-   else if(mod== 3){
+   else if(mod == 3){
     return "Slytherin";
    }
 };
