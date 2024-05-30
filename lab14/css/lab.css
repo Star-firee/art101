@@ -1,0 +1,63 @@
+.minor-section {
+  background-size:50px 50px; 
+  margin-bottom: 10px;
+  background-color: rgb(239, 230, 244);
+  border: double rgb(57, 28, 77); 
+}
+
+#content{
+   background-color: rgb(242, 231, 243);
+   border: solid 5px rgb(228, 208, 243);
+   text-align: left;
+}
+
+body{
+  background-color: rgb(51, 12, 91);
+}
+
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  color:rgb(82, 72, 92); 
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+a {
+  font-family: 'Times New Roman', Times, serif;
+  color:rgb(101, 77, 137); 
+  font-size: 17px;
+}
+
+
+
+#challenge.minor-section{
+  font-family: 'Times New Roman', Times, serif;
+  color:rgb(100, 77, 137); 
+  font-size: 17px;
+  text-align:center; 
+ 
+}
+
+#output.minor-section{
+  font-family: 'Times New Roman', Times, serif;
+  color:rgb(77, 137, 95); 
+  -webkit-column-width: 200px;
+  -moz-column-width: 200px;
+  column-width: 100px;
+}
+
+#debugging.minor-section{
+  font-family: 'Times New Roman', Times, serif;
+  color:rgb(111, 77, 137); 
+  font-size: 17px;
+  text-align:center;
+}
+
+#lab14{
+  width: 500px;
+  border: solid 5px rgb(99, 20, 90);
+  border-radius: 30%;
+}
+#lab14:hover{
+  width: 700px;
+}
