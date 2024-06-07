@@ -1,0 +1,75 @@
+.minor-section {
+  background-size:50px 50px; 
+  margin-bottom: 10px;
+  background-color: rgb(244, 244, 230);
+  border: double rgb(77, 66, 28); 
+}
+
+#content{
+   background-color: rgb(243, 241, 231);
+   border: solid 5px rgb(243, 228, 208);
+   text-align: left;
+}
+
+body{
+  background-color: rgb(91, 63, 12);
+}
+
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  color:rgb(92, 84, 72); 
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+a {
+  font-family: 'Times New Roman', Times, serif;
+  color:rgb(137, 109, 77); 
+  font-size: 17px;
+}
+
+
+
+#challenge.minor-section{
+  font-family: 'Times New Roman', Times, serif;
+  color:rgb(137, 109, 77); 
+  font-size: 17px;
+  text-align:center; 
+ 
+}
+
+#output.minor-section{
+  font-family: 'Times New Roman', Times, serif;
+  color:rgb(87, 60, 30); 
+  -webkit-column-width: 200px;
+  -moz-column-width: 200px;
+  column-width: 100px;
+}
+
+#my-button{
+  color:rgb(87, 56, 30); 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+  background-color: rgb(248, 223, 190);
+  border-radius: 30px;
+  text-align: center;
+}
+
+#my-button:hover{
+  width: 100px; 
+  height: 35px;
+}
+
+p{
+  font-family: 'Times New Roman', Times, serif;
+  color:rgb(87, 60, 30);
+  text-align:center;
+}
+
+#hotdog{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 4px hsl(14, 79%, 19%);
+  width: 40%;
+}
